@@ -1,0 +1,66 @@
+.footer{
+    background-color: #25272e;
+    border:1px solid #25272e;
+}
+
+.div_icon{
+    width: 60px;
+    height: 60px;
+    background-color:#252934;
+    position: relative;
+    color:white;
+    cursor: pointer;
+    transition: 0.3s;
+    overflow: hidden;
+}
+.div_icon:hover{
+    background-color: #04c2c9;
+    transform: scale(0.9);
+}
+
+
+.icon_social{
+    width: 40px !important;
+    height: 40px !important;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+.div_icon:hover .icon_social{
+    animation: animate 0.2s ease-out ;
+}
+
+@keyframes animate{
+    34%{
+        top: 60px;
+    }
+    66%{
+        top: 0px;
+    }
+    100%{
+        top: 10px;
+    }
+}
+
+.footer > div{
+    display:flex;
+    margin:50px auto;
+    width: 400px;
+    justify-content: space-evenly;
+
+}
+
+.footer > p{
+    width: 30%;
+    margin: 20px auto;
+    color: grey;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+@media (max-width:600px){
+    .footer > p{
+        width: 100%;
+    }
+}

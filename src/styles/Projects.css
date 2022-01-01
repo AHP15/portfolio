@@ -1,0 +1,12 @@
+@media (min-width:300px) {
+    .projects__display{
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px , 1fr));
+        margin: 50px auto;
+        transition: 0.3s;
+    }
+    .projects.active .projects__display{
+        filter: blur(10px);
+    }
+}
