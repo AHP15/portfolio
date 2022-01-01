@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../styles/Contact.css";
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import emailjs from "emailjs-com";
 
 function Contact({navOpened}){
 
@@ -9,6 +10,7 @@ function Contact({navOpened}){
     const [subject, setSubject] = useState("");
     const [message, setMessage] = useState("");
     const [err, setErr] = useState(false);
+    const [loading, setLoading] = useState(false);
 
     function handleInvalid(e){
         setErr(true);
@@ -30,13 +32,23 @@ function Contact({navOpened}){
 
     function handleSubmit(e){
         e.preventDefault();
-
-        alert(name +email+subject+message);
         
-        setName("");
-        setEmail("");
-        setSubject("");
-        setMessage("");
+        setLoading(true);
+        emailjs.sendForm('service_bevm4yz', 'template_i9ti86a', e.target, 'user_DuBfk8AJtyJW5ODffXMhp')
+        .then((result) => {
+          console.log(result.text);
+          e.target.reset();
+          setLoading(false);
+            setName("");
+            setEmail("");
+            setSubject("");
+            setMessage("");
+          alert("Your message was sent successfully. Thanks!")
+        }, (error) => {
+            setLoading(false);
+          console.log(error.text);
+        });
+        
     }
 
     return (
@@ -85,7 +97,11 @@ function Contact({navOpened}){
                        onChange={handleChange}
                        required
                     />
-                  <input type='submit' value="SEND" className='submitBtn' />
+                  <input
+                      type='submit'
+                      value={loading?"SENDING...":"SEND"}
+                      className='submitBtn'
+                    />
                   <p className={`invalid ${err?"active":""}`}>Please check your input</p>
               </form>
 
