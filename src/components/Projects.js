@@ -9,7 +9,7 @@ const projects = [
         name:'Amazon-Clone',
         app:'full-stack e-commerce app',
         description:'Amazon-clone is a full-stack web application developed for e-commerce  business, with stripe api for online payment and JsonWebToken for authentication and authorization',
-        link:'https://clone-83e57.web.app/',
+        link:'https://cocky-elion-8a8571.netlify.app/',
         tech:'ReactJs/Nodejs/express\n/mongoose/mongodb',
         images:[
             './Capture14.PNG',
@@ -31,7 +31,7 @@ const projects = [
         name:'Kalam',
         app:'full-stack chat app',
         description:'Kalam is a full-stack web application for online chating based on socket connection, with socket.io library and an app state management with Redux',
-        link:'https://whatsapp-clone-e42bd.web.app/',
+        link:'https://admiring-heyrovsky-f50208.netlify.app/',
         tech:'ReactJs/Nodejs/Express\n/mongoose/mongodb',
         id:"12345,"
     },
@@ -47,7 +47,7 @@ const projects = [
         name:'Netflix-Clone',
         app:'movies app',
         description:'Netflix-clone is a web application inspired by the real netflix app with nice design, and advanced react hooks and context usage',
-        link:'https://netflex-clone-5912a.web.app/',
+        link:'https://optimistic-yonath-7116e3.netlify.app/',
         tech:'React Js',
         id:"12547856"
     },
@@ -61,7 +61,7 @@ const projects = [
         name:'Covid-19-Tracker',
         app:'data tracking app',
         description:'Covid-19-Tracker is a web application for displaying data about the current situation of covid-19 and vaccines',
-        link:'https://clear-zenith-315712.web.app/',
+        link:'https://dazzling-neumann-415d16.netlify.app/',
         tech:'React Js',
         id:"1234"
     },
