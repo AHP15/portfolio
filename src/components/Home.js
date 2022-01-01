@@ -25,7 +25,21 @@ function Home() {
                <a href='#about' className='view'>
                 <p>VIEW MY WORK</p>
                </a>
-               <div className='circle'></div>
+               {
+                   Array(400).fill(null).map(() =>{
+                       let random1 = Math.floor(Math.random() * 1300)
+                       let random2 = Math.floor(Math.random() * 700);
+                       let randomTime = Math.floor(Math.random() * 4);
+
+                       return (
+                           <div className='circle' style={{
+                               top:`${random2}px`,
+                               left:`${random1}px`,
+                               animationDuration:`${randomTime}s`,
+                           }}></div>
+                       );
+                   })
+               }
            </div>
            <About navOpened={navOpened} />
            <Projects navOpened={navOpened} />

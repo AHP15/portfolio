@@ -46,6 +46,12 @@
         padding: 5px 50px;
         margin-top: -15px;
     }
+    .project_link > p > a{
+        text-decoration: none;
+        background-color: #e31b6d;
+        padding: 5px 10px;
+        color: white;
+    }
 }
 @media (min-width:700px){
     .project_detail{

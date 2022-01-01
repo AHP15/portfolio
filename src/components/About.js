@@ -6,6 +6,8 @@ import AboutInfo from './AboutInfo';
 import SpeedIcon from '@mui/icons-material/Speed';
 import DevicesIcon from '@mui/icons-material/Devices';
 import EmojiObjectsIcon from '@mui/icons-material/EmojiObjects';
+import StorageIcon from '@mui/icons-material/Storage';
+import SchoolIcon from '@mui/icons-material/School';
 
 function About({navOpened}) {
 
@@ -35,14 +37,14 @@ function About({navOpened}) {
                    description="Websites don't have to be static, I love making pages come to life."
                 />
                 <AboutInfo
-                   Icon={EmojiObjectsIcon}
+                   Icon={StorageIcon}
                    title='Servers'
-                   description="code for Servers must be efficient, scallable and error handler, I use nodejs's asyncony to create powerfull servers"
+                   description="Code for Servers must be efficient, scallable and error handler, I use nodejs's asynchrony to create powerfull servers"
                 />
                 <AboutInfo
-                   Icon={EmojiObjectsIcon}
+                   Icon={SchoolIcon}
                    title='Always Learn'
-                   description="I always push myself to an unconfroteble positions to learn more about web development and grow my skills up"
+                   description="I always push myself to an uncomfortable positions to learn more about web development and grow my skills up"
                 />
             </div>
 

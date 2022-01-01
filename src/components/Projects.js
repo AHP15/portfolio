@@ -64,30 +64,15 @@ const projects = [
         link:'https://clear-zenith-315712.web.app/',
         tech:'React Js',
         id:"1234"
-    },/*
-    {
-        image:'https://cdn.icon-icons.com/icons2/2631/PNG/512/gmail_new_logo_icon_159149.png',
-        name:'Gmail-Demo',
-        app:'redux app',
-        description:'Gmail-Demo is a small web application inspired by the real gmail app with firebase authentication',
-        link:'https://clone-299d2.web.app/',
-        images:[
-            './Capture10.PNG',
-            './Capture12.PNG',
-            './Capture13.PNG',
-            './Capture14.PNG',
-        ],
-        tech:'React Js/Redux'
     },
-    */
     {
         image:'https://startup-agency-modern.vercel.app/_next/static/images/core-feature-c6eabc0638db680f5fdedbf6c3b1b05a.png',
         name:'landing-page',
         images:[
-            './Capture15.PNG',
-            './Capture16.PNG',
-            './Capture17.PNG',
             './Capture18.PNG',
+            './Capture19.PNG',
+            './Capture20.PNG',
+            './Capture21.PNG',
         ],
         app:'modern landing page',
         description:'landing-page is a responsive website with modern design ',
