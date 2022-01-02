@@ -3,6 +3,7 @@ import "../styles/Projects.css";
 import ProjectDetail from './ProjectDetail';
 import ProjectItem from './ProjectItem';
 
+
 const projects = [
     {
         image:'https://www.leparisien.fr/resizer/d215pck3D75_RttKY8bvRIoEzVw=/932x582/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/AJNGNE3DZE2424T3T3KNPTZFB4.jpg',

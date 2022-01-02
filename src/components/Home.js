@@ -26,13 +26,13 @@ function Home() {
                 <p>VIEW MY WORK</p>
                </a>
                {
-                   Array(400).fill(null).map(() =>{
+                   Array(400).fill(Math.random()).map((_, i) =>{
                        let random1 = Math.floor(Math.random() * 1300)
                        let random2 = Math.floor(Math.random() * 700);
                        let randomTime = Math.floor(Math.random() * 4);
 
                        return (
-                           <div className='circle' style={{
+                           <div key={String(_+i)} className='circle' style={{
                                top:`${random2}px`,
                                left:`${random1}px`,
                                animationDuration:`${randomTime}s`,
