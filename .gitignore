@@ -7,7 +7,6 @@
 
 # testing
 /coverage
-/src/endEmail.js
 # production
 /build
 
