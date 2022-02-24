@@ -10,7 +10,7 @@ const projects = [
         name:'Amazon-Clone',
         app:'full-stack e-commerce app',
         description:'Amazon-clone is a full-stack web application developed for e-commerce  business, with stripe api for online payment, authentication and authorization',
-        link:'https://amazonclone-mern-stack.herokuapp.com/',
+        link:'https://amazonclone-mern-stack.herokuapp.com',
         tech:'ReactJs/Nodejs/express\n/mongoose/mongodb',
         images:[
             './Capture14.PNG',
@@ -31,12 +31,12 @@ const projects = [
             './Capture9.PNG',
             './Capture10.PNG',
             './Capture11.PNG',
-            './Capture13.PNG',
+            './Capture12.PNG',
         ],
         name:'Kalam',
         app:'full-stack chat app',
         description:'Kalam is a full-stack web application for online chating based on socket connection, with socket.io library and an app state management with Redux',
-        link:'https://admiring-heyrovsky-f50208.netlify.app/',
+        link:'https://kalam-app.herokuapp.com/',
         tech:'ReactJs/Nodejs/Express\n/mongoose/mongodb',
         id:"12345,"
     },
@@ -52,7 +52,7 @@ const projects = [
         name:'Netflix-Clone',
         app:'movies app',
         description:'Netflix-clone is a web application inspired by the real netflix app with nice design, and advanced react hooks and context usage',
-        link:'https://optimistic-yonath-7116e3.netlify.app/',
+        link:'https://netflix-clone-abdessittir.netlify.app/',
         tech:'React Js',
         id:"12547856"
     },
