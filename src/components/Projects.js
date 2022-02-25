@@ -57,17 +57,17 @@ const projects = [
         id:"12547856"
     },
     {
-        image:'https://www.basin.be/sites/default/files/Nieuws/covid-19_2.jpg',
+        image:'https://www.initcoms.com/wp-content/uploads/2014/06/4-razones-por-las-que-deberias-incorporar-un-blog-a-tu-sitio-web.jpg',
         images:[
             './Capture.PNG',
             './Capture1.PNG',
             './Capture3.PNG',
         ],
-        name:'Covid-19-Tracker',
-        app:'data tracking app',
-        description:'Covid-19-Tracker is a web application for displaying data about the current situation of covid-19 and vaccines',
-        link:'https://dazzling-neumann-415d16.netlify.app/',
-        tech:'React Js',
+        name:'Nextjs-blog',
+        app:'blog',
+        description:'Nextjs-blog is web application built with Next.js',
+        link:'https://nextjs-blog-sand-zeta-62.vercel.app/',
+        tech:'Next Js',
         id:"1234"
     },
     {
