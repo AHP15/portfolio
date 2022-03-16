@@ -35,7 +35,7 @@ const projects = [
         ],
         name:'Kalam',
         app:'full-stack chat app',
-        description:'Kalam is a full-stack web application for online chating based on socket connection, with socket.io library and an app state management with Redux',
+        description:'Kalam is a full-stack web application for online chating based on socket connection, with socket.io library and an app state management with React context',
         link:'https://kalam-app.herokuapp.com/',
         tech:'ReactJs/Nodejs/Express\n/mongoose/mongodb',
         id:"12345,"
